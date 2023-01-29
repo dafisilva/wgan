@@ -1,0 +1,43 @@
+Files already downloaded and verified
+DATA LOADED SUCCESSFULLY
+
+ Instance is running on:  cuda
+EPOCHS: 200
+
+
+Epoch 1/200:
+D_loss:-918597.6327686313
+G_loss:431363.94612260733
+
+
+Epoch 2/200:
+D_loss:-3316922.309807388
+G_loss:1556262.6747494105
+
+
+Epoch 3/200:
+D_loss:-6351282.397228774
+G_loss:2985873.433470912
+
+
+Epoch 4/200:
+D_loss:-9980923.081367943
+G_loss:4706499.668238994
+
+
+Epoch 5/200:
+D_loss:-14208601.438757867
+G_loss:6723999.16293239
+
+
+Epoch 6/200:
+D_loss:-19030442.17216981
+G_loss:9042486.219929244
+
+
+Epoch 7/200:
+D_loss:-24406314.7095912
+G_loss:11643247.979559748
+
+
+Epoch 8/200:

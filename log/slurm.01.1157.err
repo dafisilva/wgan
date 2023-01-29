@@ -1,0 +1,7 @@
+  0%|          | 0/2544 [00:00<?, ?batch/s]  0%|          | 0/2544 [00:01<?, ?batch/s]
+Traceback (most recent call last):
+  File "/nas-ctm01/homes/djbarros/caging/taia_project_gan.py", line 267, in <module>
+    gp=compute_gradient_penalty(netD,real_images,fake_images)
+  File "/nas-ctm01/homes/djbarros/caging/taia_project_gan.py", line 166, in compute_gradient_penalty
+    alpha = Tensor(np.random.random((real_samples.size(0), 1, 1, 1)))
+NameError: name 'Tensor' is not defined

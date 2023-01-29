@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/nas-ctm01/homes/djbarros/caging/wgan.py", line 33, in <module>
+    trainset=torchvision.datasets.CelebA('/content/sample_data',split='train',download=True,transform=transform)
+  File "/nas-ctm01/homes/djbarros/.conda/envs/vcmi/lib/python3.9/site-packages/torchvision/datasets/celeba.py", line 80, in __init__
+    self.download()
+  File "/nas-ctm01/homes/djbarros/.conda/envs/vcmi/lib/python3.9/site-packages/torchvision/datasets/celeba.py", line 150, in download
+    download_file_from_google_drive(file_id, os.path.join(self.root, self.base_folder), filename, md5)
+  File "/nas-ctm01/homes/djbarros/.conda/envs/vcmi/lib/python3.9/site-packages/torchvision/datasets/utils.py", line 235, in download_file_from_google_drive
+    os.makedirs(root, exist_ok=True)
+  File "/nas-ctm01/homes/djbarros/.conda/envs/vcmi/lib/python3.9/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/nas-ctm01/homes/djbarros/.conda/envs/vcmi/lib/python3.9/os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/nas-ctm01/homes/djbarros/.conda/envs/vcmi/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/content'
